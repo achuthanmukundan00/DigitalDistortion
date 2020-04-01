@@ -71,10 +71,10 @@ void DigitalDistortion::ProcessDoubleReplacing(double** inputs, double** outputs
 }
 
 void DigitalDistortion::CreatePresets() {
-    MakePreset("clean", 0.0);
-    MakePreset("punchy", 40.0);
-    MakePreset("buzzy", 60.0);
-    MakePreset("crushed", 100);
+    MakePreset("Clean", 0.0);
+    MakePreset("Punchy", 40.0);
+    MakePreset("Buzzy", 60.0);
+    MakePreset("Crushed", 99.99);
 }
 
 void DigitalDistortion::Reset()
